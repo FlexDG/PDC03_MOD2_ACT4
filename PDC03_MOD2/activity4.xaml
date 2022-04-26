@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PDC03_MOD2.activity4" BackgroundColor="SkyBlue">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="Welcome to Activity4!"
+                
+                   
+                   FontSize="Large"
+                   FontAttributes="Bold"
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" />
+
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height ="Auto"/>
+                    <RowDefinition Height ="Auto"/>
+                </Grid.RowDefinitions>
+
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="Auto"/>
+                </Grid.ColumnDefinitions>
+
+                <Label Text="Felix" FontAttributes="Bold" />
+
+                <Label Text="Raf"  FontAttributes="Bold"  
+                       Grid.Row="0" Grid.Column="1"/>
+                <Label Text="Dizon"  FontAttributes="Bold"  
+                       Grid.Row="1" Grid.Column="0"/>
+                <Label Text="DG"  FontAttributes="Bold"  
+                       Grid.Row="1" Grid.Column="1"/>
+                <Label Text="Xamarin"  FontAttributes="Bold"  
+                       Grid.Row="2" Grid.Column="0"/>
+                <Label Text="Valo"  FontAttributes="Bold" 
+                       Grid.Row="2" Grid.Column="1"/>
+
+            </Grid>
+            <Button Text="Back" Clicked="BackMain"
+                    BackgroundColor="white"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
