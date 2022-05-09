@@ -5,7 +5,7 @@
 
 
     <StackLayout HorizontalOptions="Center" VerticalOptions="Center">
-        <Button Text="Activity 3" Clicked="Act1" HorizontalOptions="Center" VerticalOptions="Center"/>
+        <Button Text="Activity 4" Clicked="Act1" HorizontalOptions="Center" VerticalOptions="Center"/>
     </StackLayout>
 
 </ContentPage>
